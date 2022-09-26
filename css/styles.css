@@ -38,8 +38,6 @@ p{
 .button{
     cursor: pointer;
     border-radius: 4px;
-    padding-top: 18px;
-    padding-bottom: 19px;
     border: 1px solid transparent;
 }
 
@@ -55,7 +53,7 @@ p{
 
 
 /* Логотип */
-.main-hearer{
+.chif-header{
     background-color: var(--primery-white-color) ;
 }
 
@@ -81,8 +79,8 @@ p{
 }
 
 .header .item{
-    padding-top: 30px;
-    padding-bottom: 34px;
+    padding-top: 32px;
+    padding-bottom: 31px;
 }
 
 .main-header{
@@ -145,27 +143,32 @@ p{
 .hero{
     text-align: center;
     background-color: var(--backgrounh-third-color);
-    padding-top: 211px;
+    padding-top: 200px;
     padding-bottom: 200px;
 }
 
 .hero-title{
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--primery-white-color);
+    width: 696px;
+        /* text-align: center; */
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+        letter-spacing: 0.06em;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 30px;
 
-    margin-bottom: 44px;
+        text-transform: uppercase;
+        color: var(--primery-white-color);
 }
 
-.hero-btn{
-    width: 216px; ;
+
+.hero-btn{ 
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
+    padding: 10px 32px;
     color: var(--primery-white-color);
     background-color: var(--accent-color);
 }
@@ -187,13 +190,20 @@ background-color: var(--primery-white-color););
     color: var(--primery-grey-color);
 
     display: inline-block;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 
 .features-text{
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+}
+.features-list-item{
+    width: 270px;
+}
+
+.features-list-item:not(:last-child){
+    margin-right: 30px;
 }
 
 .section-title{
@@ -202,8 +212,7 @@ background-color: var(--primery-white-color););
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primery-grey-color);
-
-    margin-bottom: 58px;
+    margin-bottom: 50px;
 }
 .section-work{
     background-color: var(--primery-white-color);
@@ -238,7 +247,7 @@ background-color: var(--primery-white-color););
     letter-spacing: 0.03em;
     color: var(--primery-grey-color);
 
-    margin-bottom: 13px;
+    margin-bottom: 10px;
 }
 
 .team-text{
@@ -252,7 +261,7 @@ background-color: var(--primery-white-color););
     justify-content: space-between;
 }
 .team-photo{
-    margin-bottom: 32px;
+    margin-bottom: 30px;
 }
 
 /* Футер */
@@ -266,7 +275,7 @@ background-color: var(--primery-white-color););
 .footer .logo{
     color: var(--primery-white-color);
     display: inline-block;
-    margin-bottom: 31px;
+    margin-bottom: 20px;
 }
 
 .adress{
@@ -276,9 +285,6 @@ background-color: var(--primery-white-color););
     letter-spacing: 0.03em;
 }
 
-.adress-mapa{
-    margin-bottom: 16px;
-}
 
 .mapa-link{  
     color: var(--primery-white-color);
@@ -291,7 +297,7 @@ background-color: var(--primery-white-color););
 }
 
 .adress .item:not(:last-child){
-    margin-bottom: 15px;
+    margin-bottom: 9px;
 }
 
 .adress .contact:hover,
@@ -319,16 +325,14 @@ background-color: var(--primery-white-color););
     margin-bottom: 50px;
 }
 .filters-btn{
-    min-width: 130px;
-    font-weight: 500;
+    min-width: 73px;     
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
     color: var(--primery-grey-color);
     background-color: var(--backgrounh-secondary-color);
     
-    padding-top: 12px;
-    padding-bottom: 13px;
+    padding: 6px 22px;
 }
 
 
@@ -347,6 +351,7 @@ background-color: var(--primery-white-color););
     display: flex;
     flex-wrap: wrap;
 }
+
 
 .preview .preview-link{
     display: inline-block;
@@ -374,9 +379,7 @@ background-color: var(--primery-white-color););
     border-right: 1px solid var(--ramka-color);
     border-bottom: 1px solid var(--ramka-color);
 
-    padding-top: 31px;
-    padding-left: 23px;
-    padding-bottom: 25px;
+    padding: 20px 23px;
 }
 
 .preview-title{
@@ -385,7 +388,7 @@ background-color: var(--primery-white-color););
     letter-spacing: 0.06em;
     color: var(--primery-grey-color);
 
-    margin-bottom: 20px;
+    margin-bottom: 4px;
 }
 .preview-text{
     font-size: 16px;
