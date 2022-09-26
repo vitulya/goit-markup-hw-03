@@ -268,8 +268,8 @@ background-color: var(--primery-white-color););
 .footer{
     background-color: var(--backgrounh-third-color);
 
-    padding-top: 64px;
-    padding-bottom: 63px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer .logo{
