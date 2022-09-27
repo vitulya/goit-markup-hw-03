@@ -8,6 +8,7 @@
     --backgrounh-secondary-color: #F5F4FA;
     --backgrounh-third-color: #2F303A;
     --ramka-color: #EEEEEE;
+    --background-button-active: #188CE8;
 }
 .link {
     text-decoration: none;
@@ -195,6 +196,11 @@ body{
     padding: 10px 32px;
     color: var(--primery-white-color);
     background-color: var(--accent-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: var(--background-button-active);
 }
 
 /* Наші переваги */
