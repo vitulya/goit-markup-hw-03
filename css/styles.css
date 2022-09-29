@@ -394,14 +394,13 @@ background-color: var(--primery-white-color););
 .preview-item{
     background-color: var(--primery-white-color);
     width: calc((100% - 2 * 30px) / 3);
-     
      /* width: 200px; */
+     
 }
 
 .preview-item-content{
-    border-left: 1px solid var(--ramka-color);
-    border-right: 1px solid var(--ramka-color);
-    border-bottom: 1px solid var(--ramka-color);
+    border: 1px solid var(--ramka-color);
+    border-top: none;
 
     padding: 20px 24px;
 }
